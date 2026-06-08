@@ -27,5 +27,14 @@ Brand: navy #1F2A44 · teal #1F7A8C · gold #E0A458 · green #3FA45B.
 3. **Pubblica:** in Lovable premi *Publish* → ottieni un dominio `*.lovable.app`. Collega un **dominio custom** se vuoi (es. `signingagenthq.com`).
 4. **Collega il funnel:** punta i bottoni "Pre-order/Buy" degli asset (ad, email, landing statica in `dist/landing/`) all'URL pubblicato, e il "free log" a `/free`.
 
+## Screenshot di prodotto (gallery)
+Le 3 immagini reali in `dist/marketing/screenshots/` (Dashboard, Signing Log, Tax Summary, generate da `build/build_screenshots.py` con i numeri del trimestre) sono nella gallery di `/product` con lightbox, e la Dashboard apre la sezione "See inside" della home.
+
+## Consegna file (download)
+File serviti dallo store (sorgenti in `dist/delivery/`):
+- **Gratis** (`/free`, dopo opt-in): `Notary-Mileage-Log.xlsx` + link al PDF stampabile.
+- **A pagamento** (`/success`, dopo checkout): `Signing-Agent-HQ.zip` (workbook + Notion + Quick-Start + checklist).
+- ⚠️ **Upgrade sicurezza:** il file a pagamento è servito come URL pubblico (ok per soft-launch ma indovinabile). Per la vendita seria → consegna via **email gated** (connettore Resend) dopo pagamento Stripe confermato.
+
 ## Nota
 La landing statica in `dist/landing/` resta utile come pagina singola alternativa / per A/B test; lo store Lovable è la vetrina completa con checkout reale.
