@@ -77,9 +77,27 @@ Trovare opportunità concrete per prodotti digitali vendibili, principalmente ne
 
 ```
 .
-├── README.md           # Panoramica del progetto (questo file)
-└── SYSTEM_PROMPT.md     # System prompt completo dell'agente
+├── README.md            # Panoramica del progetto (questo file)
+├── SYSTEM_PROMPT.md      # System prompt completo dell'agente
+├── research/             # Analisi di mercato e nicchie
+│   └── 01-niche-analysis-2026.md
+├── validation/           # Kit di validazione per la nicchia selezionata
+│   └── notary-signing-agent-os/   # Signing Agent HQ (score 78/100 → VALIDARE)
+│       ├── README.md · product-spec.md · landing-page.md
+│       ├── lead-magnet-mileage-log.md · sales-listing.md
+│       ├── email-sequence.md · video-script-60s.md · validation-plan.md
+├── build/                # Generatori riproducibili del prodotto e degli asset
+│   ├── build_workbook.py · build_extras.py · build_cover.py
+└── dist/                 # Deliverable pronti
+    ├── Signing-Agent-HQ.xlsx · Quick-Start-Guide.pdf
+    ├── notion/*.csv      # Versione Notion
+    ├── marketing/*.png   # Cover + hero
+    └── landing/          # Landing page deployabile
 ```
+
+> La nicchia validata come caso d'uso end-to-end è **Signing Agent HQ** (sistema
+> business + tasse per loan signing agent). Dalla ricerca al prodotto MVP,
+> landing e funnel: vedi [`validation/notary-signing-agent-os/`](./validation/notary-signing-agent-os/).
 
 ## Come si usa
 
