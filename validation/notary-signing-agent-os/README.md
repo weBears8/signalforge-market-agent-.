@@ -15,6 +15,7 @@ Nicchia selezionata dal SignalForge Market Intelligence Agent: **Notary / Loan S
 - [`validation-plan.md`](./validation-plan.md) — piano 7/14/30 giorni con soglie Go/No-Go.
 - [`go-live-runbook.md`](./go-live-runbook.md) — **da kit a online in ~1 giorno**: setup Gumroad (gratis + $19), Formspree, deploy landing, test funnel.
 - [`launch-calendar.md`](./launch-calendar.md) — calendario operativo 14 giorni che mappa ad/video/email ai giorni + checkpoint Go/No-Go.
+- [`storefront.md`](./storefront.md) — **e-commerce live** (negozio Lovable multi-pagina con checkout Stripe + cattura lead): link, pagine, e i 4 passi per andare in produzione.
 
 ### Deliverable pronti (`dist/`)
 - [`../../dist/Signing-Agent-HQ.xlsx`](../../dist/Signing-Agent-HQ.xlsx) — **il prodotto MVP**: sistema completo a 9 fogli con formule live (net profit per signing, mileage IRS, Tax Summary → Schedule C, dashboard). Importabile in Google Sheets/Excel.
