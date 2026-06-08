@@ -1,0 +1,4 @@
+Date,Company,Order #,Borrower,Appt type,Fee quoted,Fee paid,Status,Miles,Print pages,Other cost,Paid
+2026-01-08,Coastal Signings,CS-1042,J. Alvarez,Refi,150,150,Paid,24,130,0,Yes
+2026-01-11,Summit Title,ST-9981,M. Chen,Purchase,125,125,Paid,18,110,0,Yes
+2026-01-14,BlueRock Escrow,BR-204,T. Okafor,HELOC,100,0,Invoiced,32,60,0,No
