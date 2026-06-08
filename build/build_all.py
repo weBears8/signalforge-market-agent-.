@@ -21,6 +21,7 @@ STEPS = [
     ("Product workbook", "build_workbook.py"),
     ("Notion CSVs + Quick-Start PDF", "build_extras.py"),
     ("Marketing cover + hero", "build_cover.py"),
+    ("Product screenshots", "build_screenshots.py"),
     ("Top-of-funnel ad creatives", "build_ads.py"),
     ("Free lead magnet", "build_lead_magnet.py"),
     ("Launch checklist (bundle)", "build_checklist.py"),
