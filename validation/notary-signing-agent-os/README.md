@@ -8,7 +8,11 @@ Nicchia selezionata dal SignalForge Market Intelligence Agent: **Notary / Loan S
 - [`product-spec.md`](./product-spec.md) — schema completo dei moduli (Google Sheets + Notion), pricing, build effort.
 - [`landing-page.md`](./landing-page.md) — copy pronto della landing (hero, problem, solution, offerta, FAQ).
 - [`lead-magnet-mileage-log.md`](./lead-magnet-mileage-log.md) — lead magnet gratuito (mileage log) per il top-of-funnel.
+- [`email-sequence.md`](./email-sequence.md) — sequenza 5 email (waitlist → launch) con soglie metriche.
+- [`video-script-60s.md`](./video-script-60s.md) — script video 60s (TikTok/Reels/Shorts) + caption e hook A/B.
+- [`sales-listing.md`](./sales-listing.md) — listing pronto (Gumroad/Etsy): titolo, descrizione, bullet, FAQ.
 - [`validation-plan.md`](./validation-plan.md) — piano 7/14/30 giorni con soglie Go/No-Go.
+- [`../../dist/marketing/`](../../dist/marketing/) — asset visivi generati: `cover-2000.png` (social/listing) e `hero-1600x900.png` (landing). Rigenerabili con [`../../build/build_cover.py`](../../build/build_cover.py).
 
 ## Razionale in 4 punti
 1. **WTP alta e razionale** — tracciare le miglia = recuperare deduzioni fiscali che valgono più del prezzo.
