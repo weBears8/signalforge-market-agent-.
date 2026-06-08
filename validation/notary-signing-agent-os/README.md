@@ -7,7 +7,7 @@ Nicchia selezionata dal SignalForge Market Intelligence Agent: **Notary / Loan S
 - [`../../research/01-niche-analysis-2026.md`](../../research/01-niche-analysis-2026.md) — analisi e confronto delle 9 micro-nicchie, scoring, fonti.
 - [`product-spec.md`](./product-spec.md) — schema completo dei moduli (Google Sheets + Notion), pricing, build effort.
 - [`landing-page.md`](./landing-page.md) — copy pronto della landing (hero, problem, solution, offerta, FAQ).
-- [`lead-magnet-mileage-log.md`](./lead-magnet-mileage-log.md) — lead magnet gratuito (mileage log) per il top-of-funnel.
+- [`lead-magnet-mileage-log.md`](./lead-magnet-mileage-log.md) — lead magnet gratuito (mileage log) per il top-of-funnel. → file pronti in [`../../dist/lead-magnet/`](../../dist/lead-magnet/) (xlsx con formule + PDF stampabile).
 - [`email-sequence.md`](./email-sequence.md) — sequenza 5 email (waitlist → launch) con soglie metriche.
 - [`video-script-60s.md`](./video-script-60s.md) — script video 60s (TikTok/Reels/Shorts) + caption e hook A/B.
 - [`sales-listing.md`](./sales-listing.md) — listing pronto (Gumroad/Etsy): titolo, descrizione, bullet, FAQ.
