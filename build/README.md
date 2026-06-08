@@ -10,6 +10,7 @@ python3 build/build_workbook.py   # → dist/Signing-Agent-HQ.xlsx
 python3 build/build_extras.py     # → dist/notion/*.csv + dist/Quick-Start-Guide.pdf
 python3 build/build_cover.py      # → dist/marketing/cover-2000.png + hero-1600x900.png
 python3 build/build_lead_magnet.py # → dist/lead-magnet/ (free mileage log: xlsx + printable PDF)
+python3 build/build_checklist.py  # → dist/bundle/First-90-Days-Launch-Checklist.pdf
 ```
 
 ## Output (`dist/`)
@@ -22,6 +23,7 @@ python3 build/build_lead_magnet.py # → dist/lead-magnet/ (free mileage log: xl
 | `marketing/cover-2000.png` · `hero-1600x900.png` | Cover quadrata (Etsy/social) e hero wide (Gumroad/landing). Generate con Pillow, palette brand. |
 | `landing/index.html` | Landing statica deployabile (vedi `../dist/landing/README.md`) — riusa l'hero come screenshot prodotto. |
 | `lead-magnet/Notary-Mileage-Log.xlsx` · `…-printable.pdf` | **Lead magnet gratuito** (top-of-funnel): mileage log IRS con formule live + versione stampabile per l'auto. Bridge di upsell al prodotto a $19. |
+| `bundle/First-90-Days-Launch-Checklist.pdf` | Bonus del bundle: checklist brandizzata e stampabile per il nuovo agente (commissione → primi 10 signing), agganciata al sistema. |
 
 ## Note prodotto
 - Il **tasso IRS** è un singolo parametro in `Settings!B4`: aggiornandolo si ricalcola tutto (mileage, net profit, tax summary).

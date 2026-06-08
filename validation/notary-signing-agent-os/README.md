@@ -17,6 +17,7 @@ Nicchia selezionata dal SignalForge Market Intelligence Agent: **Notary / Loan S
 - [`../../dist/Signing-Agent-HQ.xlsx`](../../dist/Signing-Agent-HQ.xlsx) — **il prodotto MVP**: sistema completo a 9 fogli con formule live (net profit per signing, mileage IRS, Tax Summary → Schedule C, dashboard). Importabile in Google Sheets/Excel.
 - [`../../dist/notion/`](../../dist/notion/) — versione Notion (CSV importabili) + formule da aggiungere.
 - [`../../dist/Quick-Start-Guide.pdf`](../../dist/Quick-Start-Guide.pdf) — guida onboarding 5 pagine.
+- [`../../dist/bundle/First-90-Days-Launch-Checklist.pdf`](../../dist/bundle/First-90-Days-Launch-Checklist.pdf) — bonus bundle per il nuovo agente (modulo 9 della spec).
 - [`../../dist/landing/`](../../dist/landing/) — **landing page deployabile** (`index.html` self-contained) per raccolta email + preordine. Vedi il suo README per il deploy.
 - [`../../dist/marketing/`](../../dist/marketing/) — asset visivi: `cover-2000.png` (social/listing) e `hero-1600x900.png` (landing). Rigenerabili con [`../../build/build_cover.py`](../../build/build_cover.py).
 
