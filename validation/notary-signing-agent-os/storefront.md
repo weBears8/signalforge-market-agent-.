@@ -36,5 +36,9 @@ File serviti dallo store (sorgenti in `dist/delivery/`):
 - **A pagamento** (`/success`, dopo checkout): `Signing-Agent-HQ.zip` (workbook + Notion + Quick-Start + checklist).
 - ⚠️ **Upgrade sicurezza:** il file a pagamento è servito come URL pubblico (ok per soft-launch ma indovinabile). Per la vendita seria → consegna via **email gated** (connettore Resend) dopo pagamento Stripe confermato.
 
+## Brand
+Azienda/venditore: **DigitaLAB Vision** (footer "© 2026 DigitaLAB Vision", meta/OG, pagine legali, About). Prodotto: **Signing Agent HQ** (nome prodotto invariato, logo nav invariato).
+Dominio consigliato: **digitalabvision.com** ($11,25/anno) → da collegare in Lovable *Settings → Domains* con i record DNS forniti (richiede piano a pagamento Lovable).
+
 ## Nota
 La landing statica in `dist/landing/` resta utile come pagina singola alternativa / per A/B test; lo store Lovable è la vetrina completa con checkout reale.
