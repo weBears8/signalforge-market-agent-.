@@ -1,0 +1,20 @@
+# Signing Agent HQ — Validation Kit
+
+Nicchia selezionata dal SignalForge Market Intelligence Agent: **Notary / Loan Signing Agent Business Operating System** (mercato USA).
+**Score 78/100 → Decisione: VALIDARE con landing + preordine ($19 founder price).**
+
+## Indice
+- [`../../research/01-niche-analysis-2026.md`](../../research/01-niche-analysis-2026.md) — analisi e confronto delle 9 micro-nicchie, scoring, fonti.
+- [`product-spec.md`](./product-spec.md) — schema completo dei moduli (Google Sheets + Notion), pricing, build effort.
+- [`landing-page.md`](./landing-page.md) — copy pronto della landing (hero, problem, solution, offerta, FAQ).
+- [`lead-magnet-mileage-log.md`](./lead-magnet-mileage-log.md) — lead magnet gratuito (mileage log) per il top-of-funnel.
+- [`validation-plan.md`](./validation-plan.md) — piano 7/14/30 giorni con soglie Go/No-Go.
+
+## Razionale in 4 punti
+1. **WTP alta e razionale** — tracciare le miglia = recuperare deduzioni fiscali che valgono più del prezzo.
+2. **Coorte in ingresso costante** — enorme funnel di formazione (NNA, Loan Signing System) = nuovi compratori ogni mese.
+3. **Offerta esistente superficiale** — printable monouso da $5 + 1 solo SaaS in abbonamento (NotaryGadget). Spazio per un sistema completo, one-time, personalizzabile.
+4. **Basso rischio** — nessuna liability (è un organizer), facile da costruire (~1 settimana per l'MVP).
+
+## Prossima azione
+Pubblica landing + lead magnet entro 7 giorni; apri preordine a $19 entro 14. **Costruisci solo a ≥ 5 preordini.**
