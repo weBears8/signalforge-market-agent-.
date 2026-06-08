@@ -4,21 +4,22 @@ Negozio e-commerce costruito su **Lovable** (full-stack: React/TanStack + backen
 Multi-pagina, brandizzato, con checkout per il prodotto a $19 e cattura email per il lead magnet.
 
 ## Link
+- **Sito pubblicato (live):** https://signing-agent-hq.lovable.app
 - **Editor (Lovable):** https://lovable.dev/projects/de98e26b-bea0-416d-8080-4e20017fd321
-- **Preview live:** https://id-preview--de98e26b-bea0-416d-8080-4e20017fd321.lovable.app
+- **Preview:** https://preview--signing-agent-hq.lovable.app
 - Progetto: *Signing Agent Suite* · workspace *Stefano's Lovable*
 
-## Pagine
+## Pagine (13 rotte, confermate)
 `/` Home · `/product` · `/pricing` · `/free` (lead magnet) · `/faq` · `/about` ·
-`/contact` · `/terms` · `/privacy` · `/refunds` · `/success` · `/cancel`.
+`/contact` · `/terms` · `/privacy` · `/refunds` · `/checkout` · `/success` · `/cancel`.
 Brand: navy #1F2A44 · teal #1F7A8C · gold #E0A458 · green #3FA45B.
 
-## Commerce
-- **Checkout Stripe** per "Signing Agent HQ" a **$19** (founder). I bottoni "Buy — $19" creano una sessione di checkout → `/success` (o `/cancel`).
-- **Backend (Lovable Cloud):** tabella `leads` (email, biggest_headache, source, created_at) per gli opt-in del mileage log gratuito + `messages` per il form contatti.
+## Commerce (cablato)
+- **Checkout Stripe** per "Signing Agent HQ" a **$19** one-time: `/checkout` → `createCheckoutSession` → Stripe → `/success` (o `/cancel`). Se `STRIPE_SECRET_KEY` non è impostata, fa fallback demo a `/success?demo=1` così il flusso è testabile end-to-end.
+- **Backend (Lovable Cloud / Supabase):** tabella `leads` (email, biggest_headache, source, created_at) per gli opt-in del mileage log + `contact_messages` (name, email, message, created_at). RLS + insert anonimo, validazione Zod, toast.
 
 ## Per andare in produzione (owner) — 4 passi
-1. **Collega Stripe:** nell'editor Lovable, apri l'integrazione Stripe e collega il tuo account (chiavi live). Verifica che il prezzo del prodotto sia $19.
+1. **Collega Stripe (incassi reali):** nell'editor Lovable aggiungi il secret `STRIPE_SECRET_KEY` (Stripe Dashboard → Developers → API keys). Nessuna modifica al codice: il checkout passa da demo a pagamenti reali. Verifica che il prezzo sia $19.
 2. **Carica i file reali del prodotto:** sostituisci i link "Download" placeholder (in `/success` e nello stato di successo di `/free`) con i file in `dist/`:
    - Prodotto a pagamento → `dist/Signing-Agent-HQ.xlsx`, `dist/notion/`, `dist/Quick-Start-Guide.pdf`, `dist/bundle/First-90-Days-Launch-Checklist.pdf` (zippa e carica su storage/Drive, poi incolla il link).
    - Lead magnet gratuito → `dist/lead-magnet/Notary-Mileage-Log.xlsx` + `…-printable.pdf`.
