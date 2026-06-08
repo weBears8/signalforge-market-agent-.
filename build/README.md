@@ -12,6 +12,8 @@ python3 build/build_cover.py      # → dist/marketing/cover-2000.png + hero-160
 python3 build/build_lead_magnet.py # → dist/lead-magnet/ (free mileage log: xlsx + printable PDF)
 python3 build/build_checklist.py  # → dist/bundle/First-90-Days-Launch-Checklist.pdf
 python3 build/build_ads.py        # → dist/marketing/ads/ (3 creative top-of-funnel)
+python3 build/build_tracker.py    # → dist/Validation-Tracker.xlsx
+python3 build/verify_workbook.py  # controllo integrità del prodotto (formule + numeri sensati)
 ```
 
 ## Output (`dist/`)
@@ -26,6 +28,9 @@ python3 build/build_ads.py        # → dist/marketing/ads/ (3 creative top-of-f
 | `landing/index.html` | Landing statica deployabile (vedi `../dist/landing/README.md`) — riusa l'hero come screenshot prodotto. |
 | `lead-magnet/Notary-Mileage-Log.xlsx` · `…-printable.pdf` | **Lead magnet gratuito** (top-of-funnel): mileage log IRS con formule live + versione stampabile per l'auto. Bridge di upsell al prodotto a $19. |
 | `bundle/First-90-Days-Launch-Checklist.pdf` | Bonus del bundle: checklist brandizzata e stampabile per il nuovo agente (commissione → primi 10 signing), agganciata al sistema. |
+| `Validation-Tracker.xlsx` | Foglio operativo per registrare le metriche di validazione contro le soglie Go/No-Go, con verdetto automatico e log giornaliero. |
+
+`verify_workbook.py` non produce output: ricalcola in modo indipendente i numeri chiave della Dashboard dai dati di esempio e verifica formule/integrità del prodotto (exit 0 = OK).
 
 ## Note prodotto
 - Il **tasso IRS** è un singolo parametro in `Settings!B4`: aggiornandolo si ricalcola tutto (mileage, net profit, tax summary).
