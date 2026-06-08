@@ -10,6 +10,7 @@ Nicchia selezionata dal SignalForge Market Intelligence Agent: **Notary / Loan S
 - [`lead-magnet-mileage-log.md`](./lead-magnet-mileage-log.md) — lead magnet gratuito (mileage log) per il top-of-funnel. → file pronti in [`../../dist/lead-magnet/`](../../dist/lead-magnet/) (xlsx con formule + PDF stampabile).
 - [`email-sequence.md`](./email-sequence.md) — sequenza 5 email (waitlist → launch) con soglie metriche.
 - [`video-script-60s.md`](./video-script-60s.md) — script video 60s (TikTok/Reels/Shorts) + caption e hook A/B.
+- [`organic-posts.md`](./organic-posts.md) — post pronti copia-incolla (gruppi FB, r/Notary) + script DM per la conversione.
 - [`sales-listing.md`](./sales-listing.md) — listing pronto (Gumroad/Etsy): titolo, descrizione, bullet, FAQ.
 - [`validation-plan.md`](./validation-plan.md) — piano 7/14/30 giorni con soglie Go/No-Go.
 - [`go-live-runbook.md`](./go-live-runbook.md) — **da kit a online in ~1 giorno**: setup Gumroad (gratis + $19), Formspree, deploy landing, test funnel.
